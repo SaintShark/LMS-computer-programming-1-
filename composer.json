@@ -1,0 +1,25 @@
+{
+    "name": "dhine/orderflow",
+    "autoload": {
+        "psr-4": {
+            "Dhine\\Orderflow\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dhinearjona16",
+            "email": "dhinearjona16@gmail.com"
+        }
+    ],
+    "require": {
+        "mpdf/mpdf": "^8.2",
+        "dompdf/dompdf": "^3.1",
+        "dompdf/php-font-lib": "^1.0",
+        "dompdf/php-svg-lib": "^1.0",
+        "setasign/fpdi": "^2.6",
+        "tecnickcom/tcpdf": "^6.10"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
